@@ -12,7 +12,8 @@
   
 <title> QuentinC. | Home </title>
 
-<nav id="clicks" style="background:#990000;opacity:0.8;">
+<nav id="clicks" style="background:#990000;opacity:0.8;"
+>
 <a href="index.html" style="color:black;"> Home</a> 
 <a href="About.html" style="color:black;"> Cakes</a>   
 <a href="work.html"  style="color:black;"> Photography</a> <a href="Contact.html" style="color:black;"> Contact</a> 
@@ -32,6 +33,11 @@ margin:0;
 text-align: center;
 font-family:arial;sans-serif ;
 font-size: 16pt;
+  -webkit-filter: grayscale(100%); /* Safari */
+    filter: grayscale(100%);
+}
+
+  
 
 }
   h1 {
@@ -71,26 +77,27 @@ img {
 width:100%;
 margin: auto;
 
-}
+ 
+
 
 p {  -webkit-column-break-inside: avoid;
 page-break-inside: avoid;
 break-inside: avoid;
 color:white;
 background-color: black; 
-font-family: Futura, regular;
+font-family: arial, regular;
   }
   
   
 @keyframes background-image {
   0% {
-    filter: blur(0px) grayscale(1);
+    filter: blur(0px) grayscale(9);
   }
   50% {
-    filter: blur(5px) grayscale(1);
+    filter: blur(5px) grayscale(9);
   }
   100% {
-    filter: blur(0px) grayscale(10);
+    filter: blur(0px) grayscale(5);
   } 
 
 }		
