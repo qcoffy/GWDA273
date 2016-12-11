@@ -763,7 +763,23 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
   background-image: url(http://www.backgroundsy.com/file/large/gold-background.jpg);
 }
 
+.ox {
+  width: 150px;
+  height: 150px;
+  background: red;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
 
+.ox:hover {
+  background-color: green;
+  cursor: pointer;
+}
 
 </style>
 
@@ -784,6 +800,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 </div>
 </div>
 <div class="title">
+<div class="ox"></div>
 <div><span class="typcn typcn-square-outline icon heading"></span></div>
 <div class="smallsep heading"></div>
 
